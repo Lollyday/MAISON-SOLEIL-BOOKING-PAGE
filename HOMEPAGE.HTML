@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="hotel.css">
+    <script src="hotel.js" defer></script>
+</head>
+<body>
+    <div class="side-bar">
+ <header>
+    <div class="logo-container">
+        <img class="logo" src="C:\Users\Lenovo\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\C188486C4F913B164E9E0CEC845B10D3C067F4F6\transfers\2026-30\assets\images\logo.svg" alt="Logo">
+       <button class="open-sidebar-button" id="open-sidebar-button" onclick="openSidebar()">
+            <img src="C:\Users\Lenovo\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\C188486C4F913B164E9E0CEC845B10D3C067F4F6\transfers\2026-30\assets\images\icon-menu.svg" alt="Menu">
+      </button>
+      </div>
+      <div class="menu-list">
+    <nav class="show" id="navbar">
+        <ul class="navs">
+            <li><button id="close-sidebar-button" onclick="closeSidebar()"><img src="C:\Users\Lenovo\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\C188486C4F913B164E9E0CEC845B10D3C067F4F6\transfers\2026-30\assets\images\icon-close.svg" alt="Close"></button></li>
+            <div class="your-stay">
+            <li>
+               <img src="C:\Users\Lenovo\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\C188486C4F913B164E9E0CEC845B10D3C067F4F6\transfers\2026-30\assets\images\icon-bed.svg" alt=""> Your stay
+            </li>
+            </div>
+            <li>
+              <img src="C:\Users\Lenovo\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\C188486C4F913B164E9E0CEC845B10D3C067F4F6\transfers\2026-30\assets\images\icon-house.svg" alt=""> The house
+            </li>
+            <li class="around-town">
+              <img src="C:\Users\Lenovo\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\C188486C4F913B164E9E0CEC845B10D3C067F4F6\transfers\2026-30\assets\images\icon-pin.svg" alt=""> Around town 
+            </li>
+            <li>
+              <img src="C:\Users\Lenovo\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\C188486C4F913B164E9E0CEC845B10D3C067F4F6\transfers\2026-30\assets\images\icon-breakfast-outline.svg" alt=""> Breakfast
+            </li>
+            <li>
+              <img src="C:\Users\Lenovo\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\C188486C4F913B164E9E0CEC845B10D3C067F4F6\transfers\2026-30\assets\images\icon-mail.svg" alt=""> Messages
+            </li>
+        </ul>
+        </div>
+    </nav>
+ </header> 
+ <div class="weather-container">
+   <div class="top-circle"></div>
+    <h6 class="weather-heading">TODAY IN CASSIS</h6>
+    <p class="temperature-1">27°</p>
+    <h6 class="weather-description">Sunny * light breeze</h6>
+ </div>  
+ <div class="foot">
+ <footer>
+    <p>Est 1987</p>
+    <p class="rue-de5">MAISON SOLEIL * 12 RUE DE5</p>
+    <p class="oliviers">OLIVIERS * CASSIS</p>
+    <P>&copy;2026 MAISON SOLEIL</P>
+ </footer>
+ </div>
+ </div>
+ <div class="main-content">
+    <p class="booking-status">BOOKING * CONFIRMED</p>
+     <div class="greetings">
+      <P id="greeting-text">Bienvenue, <em>Lucia.</em></P>
+      <div>
+      <button class="print-receipt" id="print-receipt" onclick="printReceipt()"><p>Print receipt</p></button>
+      </div>
+      <div>
+      <button class="add-to-calendar" id="add-to-calendar" onclick="addToGoogleCalendar()"><p>Add to calendar</p></button>
+      </div>
+    </div>
+    <div class="cards">
+       <img class="sun-image" src="C:\Users\Lenovo\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\C188486C4F913B164E9E0CEC845B10D3C067F4F6\transfers\2026-30\assets\images\illustration-sun.svg" alt="Sun illustration">
+ <div class="stay-receipt">
+      <section id="receipt">
+         <div class="receipt-top">
+         <h6 class="rpt-mstk">Receipt</h6>
+         <h6 class="receipt-no">No</h6>
+         <div class="bookings">
+         <h6 class="booking-no">MS-2026</h6><h6 class="booking-ref">0421-AH</h6>
+         </div>
+         </div>
+         <div class="stay-description-container">
+         <p class="stay-description">Your stay</p>
+         </div>
+         <div class="checks">
+            <h6>CHECK-IN</h6><h6>CHECK-OUT</h6>
+         </div>
+         <div class="dates">
+            <date>25 Apr</date><date>30 Apr</date>
+         </div>
+         <div class="day">
+            <date class="day-date">Saturday * 15:00</date><date class="days-date" >Wednesday * 11:00</date>
+         </div>
+         <div class="guests">
+         <div class="nights">
+            <p>Room * La Garrigue x 4 nights</p><p>£ 620.00</p>
+         </div>
+         <div class="meals">
+            <p>Breakfast x 2 guests</p><p>£ 96.00</p>
+         </div>
+         <div class="tax">
+            <p>Tourist tax</p><p>£ 14.00</p>
+         </div>
+         </div>
+         <div class="payment">
+            <h6>TOTAL PAID</h6><p class="total-amount">£ 730.00</p>
+         </div>
+         <div class="payment-method">
+            <h6>PAID * WISE * GBP</h6>
+            <img class="barcode" src="C:\Users\Lenovo\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\C188486C4F913B164E9E0CEC845B10D3C067F4F6\transfers\2026-30\assets\images\icon-barcode.svg" alt="Barcode">
+         </div>
+      </section>
+ </div>
+ <div class="welcome-card">
+   <div class="welcome-card-top">
+   <h6 class="welcomes">Welcome Card</h6>
+   <img id="sun-img" width="20" height="20" src="C:\Users\Lenovo\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\C188486C4F913B164E9E0CEC845B10D3C067F4F6\transfers\2026-30\assets\images\icon-sun.svg" alt="">
+   </div>
+   <p class="message-head">A note from your host</p>
+   <h3 class="host-name">Margaux.</h3>
+   <p class="welcome-message">We're so glad you're coming. The shutters will be open, the lemonade cold, and the cat-Poivre-pretending not to notice you.</p>
+   <h6 class="roomh6">ROOM</h6>
+   <p>La Garrigue</p>
+</div>
+    </div>
+    <div class="base-divs">
+   <div class="arrival-div">
+      <div class="arrival-top-texts">
+      <div id="key">
+         <img src="C:\Users\Lenovo\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\C188486C4F913B164E9E0CEC845B10D3C067F4F6\transfers\2026-30\assets\images\icon-key.svg" alt="">
+      </div>
+      <p id="arrive">ARRIVAL</p>
+      <p id="arrive-01">01</p>
+      </div>
+      <p><strong>Check-in from 15:00</strong></p>
+      <p>Sat, 25 April</p>
+      <p>Ring the brass bell by the blue door. if we're at the market, the key is in the terracotta pot by the olive tree.</p>
+   </div>
+   <div class="wifi-div">
+      <div class="wifi-top-texts">
+         <div class="image-bg">
+            <img src="C:\Users\Lenovo\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\C188486C4F913B164E9E0CEC845B10D3C067F4F6\transfers\2026-30\assets\images\icon-wifi.svg" alt="">
+         </div>
+         <p id="wifi">WIFI</p>
+         <p id="wifi-02">02</p>
+      </div>
+      <p><strong>Le Soleil * Guest</strong></p>
+      <p>Password below</p>
+      <div class="network">NETWORK <p>Le Soleil*Guest</p></div>
+      <div class="wifis">PASSWORD <p class="wifi-password">soleil-2026</p>
+      <button type="button" class="copy" data-copy=".wifi-password">
+         <p class="copy-label">COPY</p>
+      </button>
+      </div>
+      </div>
+   <div class="breakfast-div">
+      <div class="breakfast-top-texts">
+         <div class="breakfast-bg">
+            <img src="C:\Users\Lenovo\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\C188486C4F913B164E9E0CEC845B10D3C067F4F6\transfers\2026-30\assets\images\icon-breakfast.svg" alt="">
+         </div>
+         <p id="breakfast">BREAKFAST</p>
+         <p id="breakfast-03">03</p>
+      </div>
+      <p><strong>Served 8-10:30</strong></p>
+      <p>On the terrace</p>
+      <p>Fresh figs, Marseille honey, pain au levain, and espresso. Gluten-free option? Leave a note the night before</p>
+   </div>
+ </div>
+ </div>
+</body>
+</html>
