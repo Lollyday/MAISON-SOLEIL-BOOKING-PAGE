@@ -1,3 +1,4 @@
+const navbar = document.getElementById('navbar')
 document.querySelectorAll(".copy").forEach(copyButton => {
     copyButton.addEventListener("click", () => {
         const targetElement = document.querySelector(copyButton.dataset.copy);
@@ -43,3 +44,5 @@ document.querySelectorAll(".copy").forEach(copyButton => {
   
   window.open(googleCalendarUrl, "_blank");
 }
+
+

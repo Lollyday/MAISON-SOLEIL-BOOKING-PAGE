@@ -11,35 +11,36 @@
     <div class="side-bar">
  <header>
     <div class="logo-container">
-        <img class="logo" src="C:\Users\Lenovo\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\C188486C4F913B164E9E0CEC845B10D3C067F4F6\transfers\2026-30\assets\images\logo.svg" alt="Logo">
-       <button class="open-sidebar-button" id="open-sidebar-button" onclick="openSidebar()">
-            <img src="C:\Users\Lenovo\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\C188486C4F913B164E9E0CEC845B10D3C067F4F6\transfers\2026-30\assets\images\icon-menu.svg" alt="Menu">
+        <img class="logo" src="logo.svg" alt="Logo">
+       <button class="open-sidebar-button" id="open-sidebar-button" onclick="openSidebar()" aria-label="open sidebar" aria-expanded="false" aria-controls="navbar">
+            <img src="icon-menu.svg" alt="Menu">
       </button>
       </div>
       <div class="menu-list">
     <nav class="show" id="navbar">
         <ul class="navs">
-            <li><button id="close-sidebar-button" onclick="closeSidebar()"><img src="C:\Users\Lenovo\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\C188486C4F913B164E9E0CEC845B10D3C067F4F6\transfers\2026-30\assets\images\icon-close.svg" alt="Close"></button></li>
+            <li><button id="close-sidebar-button" onclick="closeSidebar()" aria-label="close sidebar" ><img src="icon-close.svg" alt="Close"></button></li>
             <div class="your-stay">
             <li>
-               <img src="C:\Users\Lenovo\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\C188486C4F913B164E9E0CEC845B10D3C067F4F6\transfers\2026-30\assets\images\icon-bed.svg" alt=""> Your stay
+               <img src="icon-bed.svg" alt=""> Your stay
             </li>
             </div>
             <li>
-              <img src="C:\Users\Lenovo\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\C188486C4F913B164E9E0CEC845B10D3C067F4F6\transfers\2026-30\assets\images\icon-house.svg" alt=""> The house
+              <img src="icon-house.svg" alt=""> The house
             </li>
             <li class="around-town">
-              <img src="C:\Users\Lenovo\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\C188486C4F913B164E9E0CEC845B10D3C067F4F6\transfers\2026-30\assets\images\icon-pin.svg" alt=""> Around town 
+              <img src="icon-pin.svg" alt=""> Around town 
             </li>
             <li>
-              <img src="C:\Users\Lenovo\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\C188486C4F913B164E9E0CEC845B10D3C067F4F6\transfers\2026-30\assets\images\icon-breakfast-outline.svg" alt=""> Breakfast
+              <img src="icon-breakfast-outline.svg" alt=""> Breakfast
             </li>
             <li>
-              <img src="C:\Users\Lenovo\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\C188486C4F913B164E9E0CEC845B10D3C067F4F6\transfers\2026-30\assets\images\icon-mail.svg" alt=""> Messages
+              <img src="icon-mail.svg" alt=""> Messages
             </li>
         </ul>
         </div>
     </nav>
+
  </header> 
  <div class="weather-container">
    <div class="top-circle"></div>
@@ -60,6 +61,8 @@
     <p class="booking-status">BOOKING * CONFIRMED</p>
      <div class="greetings">
       <P id="greeting-text">Bienvenue, <em>Lucia.</em></P>
+      </div>
+      <div class="greet-receipt">
       <div>
       <button class="print-receipt" id="print-receipt" onclick="printReceipt()"><p>Print receipt</p></button>
       </div>
@@ -68,7 +71,7 @@
       </div>
     </div>
     <div class="cards">
-       <img class="sun-image" src="C:\Users\Lenovo\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\C188486C4F913B164E9E0CEC845B10D3C067F4F6\transfers\2026-30\assets\images\illustration-sun.svg" alt="Sun illustration">
+       <img class="sun-image" src="illustration-sun.svg" alt="">
  <div class="stay-receipt">
       <section id="receipt">
          <div class="receipt-top">
@@ -106,14 +109,14 @@
          </div>
          <div class="payment-method">
             <h6>PAID * WISE * GBP</h6>
-            <img class="barcode" src="C:\Users\Lenovo\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\C188486C4F913B164E9E0CEC845B10D3C067F4F6\transfers\2026-30\assets\images\icon-barcode.svg" alt="Barcode">
+            <img class="barcode" src="icon-barcode.svg" alt="Barcode">
          </div>
       </section>
  </div>
  <div class="welcome-card">
    <div class="welcome-card-top">
    <h6 class="welcomes">Welcome Card</h6>
-   <img id="sun-img" width="20" height="20" src="C:\Users\Lenovo\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\C188486C4F913B164E9E0CEC845B10D3C067F4F6\transfers\2026-30\assets\images\icon-sun.svg" alt="">
+   <img id="sun-img" width="20" height="20" src="icon-sun.svg" alt="">
    </div>
    <p class="message-head">A note from your host</p>
    <h3 class="host-name">Margaux.</h3>
@@ -126,7 +129,7 @@
    <div class="arrival-div">
       <div class="arrival-top-texts">
       <div id="key">
-         <img src="C:\Users\Lenovo\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\C188486C4F913B164E9E0CEC845B10D3C067F4F6\transfers\2026-30\assets\images\icon-key.svg" alt="">
+         <img src="icon-key.svg" alt="">
       </div>
       <p id="arrive">ARRIVAL</p>
       <p id="arrive-01">01</p>
@@ -138,7 +141,7 @@
    <div class="wifi-div">
       <div class="wifi-top-texts">
          <div class="image-bg">
-            <img src="C:\Users\Lenovo\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\C188486C4F913B164E9E0CEC845B10D3C067F4F6\transfers\2026-30\assets\images\icon-wifi.svg" alt="">
+            <img src="icon-wifi.svg" alt="">
          </div>
          <p id="wifi">WIFI</p>
          <p id="wifi-02">02</p>
@@ -155,7 +158,7 @@
    <div class="breakfast-div">
       <div class="breakfast-top-texts">
          <div class="breakfast-bg">
-            <img src="C:\Users\Lenovo\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\C188486C4F913B164E9E0CEC845B10D3C067F4F6\transfers\2026-30\assets\images\icon-breakfast.svg" alt="">
+            <img src="icon-breakfast.svg" alt="">
          </div>
          <p id="breakfast">BREAKFAST</p>
          <p id="breakfast-03">03</p>
