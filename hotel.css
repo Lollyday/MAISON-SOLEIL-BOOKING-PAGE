@@ -1,5 +1,7 @@
 .navs {display:flex; list-style: none; gap: 30px; flex-direction: column; margin-left: -20px; line-height: 1.0; cursor: pointer;}
 
+.navs a {text-decoration: none;}
+
 body {background-color: rgb(251, 244, 235); display: flex;}
 
 .navs li {display: flex; align-items: center; gap: 5px;}
